@@ -1,0 +1,31 @@
+# Flutter/Dart/Pub related
+#.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+#build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android build outputs
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# IntelliJ/Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# Symbolication/Obfuscation
+app.*.symbols
+app.*.map.json
